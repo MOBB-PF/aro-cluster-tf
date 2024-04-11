@@ -3,13 +3,15 @@ output.log
 # Local .terraform directories
 **/.terraform/*
 **/.terraform.lock.hcl
-
+.terraform.lock.hcl
+.terraform/*
 # .tfstate files
 *.tfstate
 *.tfstate.*
 
 # tfplan files
 *.tfplan
+*-plan
 
 # Crash log files
 crash.log
